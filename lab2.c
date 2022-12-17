@@ -53,7 +53,3 @@ params[0].starting_row = 3;
 /* Now create the thread passing it params[0] as a parameter */
 pthread_create(&(tid[0]), &attr, validate, &(params[0]));
 
-int main(void) {
-  
-  
-}
